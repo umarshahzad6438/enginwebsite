@@ -1,0 +1,195 @@
+*{
+    margin: 0%;
+    padding: 0;
+}body{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    color: aliceblue;
+    margin-top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(32,32,32);
+}
+.listfirst{
+    color: aliceblue;
+    margin: 0 0 0 70px;
+    list-style: none;
+}
+.listsecond{
+    color: aliceblue;
+    margin: 0 0 0 30px;
+    list-style: none;
+}
+.lastli{
+    color: aliceblue;
+    padding-left:4px;
+    list-style: none;
+}
+.logo{
+    width: 130px;
+    height: 80px;
+}
+.openthree{
+    background-color: rgb(245, 245, 245);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0 0 0 10px;
+    align-items: center;
+}
+.three{
+    margin: 0 0 0 40px;
+      
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.cont{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 120px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+    grid-template-rows: repeat( 3, auto);
+    grid-gap: 20px;
+}
+div > img{
+    width: 370px;
+    height: 208px;
+}
+.it1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.it2{
+    grid-column: 2;
+    grid-row: 2 ;
+}
+.it3{
+    grid-column: 3;
+    grid-row: 1/2;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:120px
+}
+.btn > button {
+    width: 180px;
+    height: 52px;
+    background-color: rgb(223, 91, 30);
+    font-size: 20px;
+    border: none;
+}
+.foter{
+    width: 100%;
+    height: 550px;
+    margin: 200px 0 0 0;
+    background-color: rgb(32,32,32);
+}
+.five{
+    position: absolute;
+}
+.fli{
+    list-style: none;
+    margin: 35px 0 0 0;
+}
+.fli > a , .fli{
+    color: aliceblue;
+  
+    
+ } .fli > a , .flii{
+  color: aliceblue;
+ }
+ .ul > .flii{
+    color: aliceblue;
+
+}
+.flii > a , .flii{
+    color: aliceblue;
+    margin: 35px 0 0 0;
+    list-style: none;
+ }
+.six{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+.our{
+    width: 65px;
+    height: 65px;
+ }
+ hr{
+    color: black;   
+ }
+.seven{
+    width: 400px;
+    height: 300px;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    padding: 30px;
+    position: relative;
+    
+    left: 940px;
+    top: -270px;
+    
+}
+.twobtn{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(223, 91, 30);
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 1010px;
+    border-bottom-right-radius: 1010px;
+}
+.twobtn:hover{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(252, 247, 247);
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 1010px;
+    border-bottom-right-radius: 1010px;
+    transform: scale(1);
+    transition: all 1s;
+}
+     /* lasttttttttttttttttttttt */
+.babu{
+    color: aliceblue;
+    width: 100vh;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(32,32,32);
+    list-style: none;
+}
+.do{
+    margin-left: 500px;
+
+    
+}
+.dad
+{
+    margin: 0 0 0 50px;
+}
+.op{
+    color: aliceblue;
+    background-color: rgb(32,32,32);
+}
+
+
+
